@@ -2,7 +2,7 @@
 
 https://htranchung.github.io/Code-Quiz/
 
-<img src="./assets/images/screenshot.png" width="500" height="500"> 
+<img src="./Assets/images/screenshot.png" width="500" height="500"> 
 
 ## Description
 
