@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Merienda' rel='stylesheet'>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Code Quiz</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <button class="btnHeader" id="view-high-scores">View High Scores</button>
+        </div>
+        <div>
+            <p class="timer">Time:<span id="timeLeft"></span></p>
+        </div>
+
+    </header>
+
+    <div id="main" class="center">
+        <div id="container">
+            <h1 class="title">Coding Quiz Challenge</h1>
+            <p id="questionDisplay">Try to answer the following code-related questions within the time limit. Keep in
+                mind that incorrect answers
+                will penalize your score/time by 15 seconds</p>
+            <p id="finalScoreDisplay"></p>
+            <p id="enterInitials"></p>
+            <textarea id=enterInitialsTextArea></textarea>
+            <button class="btn" id="start">Start Quiz</button>
+            <button class="btn" id="answer1"></button>
+            <button class="btn" id="answer2"></button>
+            <button class="btn" id="answer3"></button>
+            <button class="btn" id="answer4"></button>
+            <button class="btn" id="submitScore"></button>
+        </div>
+        <div id="questionCorrectWrongGrid"></div>
+        <p id=questionCorrectWrong></p>
+    </div>
+
+    </section>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
